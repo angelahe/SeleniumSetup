@@ -42,15 +42,18 @@ public class TextBoxDemoTest {
         fullName.sendKeys("Test Full Name");
 
         // Identify Email field's ID and enter a valid email
-
+        WebElement userEmail=driver.findElement(By.id("userEmail"));
+        userEmail.sendKeys("Test Full Name");
 
 
         // Identify Current Address field's ID and enter a valid Address
-
+        WebElement currentAddress=driver.findElement(By.id("currentAddress"));
+        currentAddress.sendKeys("Test Full Name");
 
 
         // Identify Permanent Address field's ID and enter a valid Address
-
+        WebElement permanentAddress=driver.findElement(By.id("permanentAddress"));
+        permanentAddress.sendKeys("Test Full Name");
 
 
         // Identify Submit button's ID and click the button
